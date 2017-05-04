@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*公共样式*/
+html{padding:0px; margin:0px;}
+body{margin:0px; padding:0px; background:#fff; font-size:14px; color:#666; font-family: tahoma,arial,Hiragino Sans GB,Microsoft YaHei,"\u5b8b\u4f53",sans-serif;}
+div,form,img,ul,ol,li,dl,dt,dd{margin:0px; padding:0px; border:0px;}
+h1,h2,h3,h4,h5,h6,form,p,span{margin:0px;padding:0px;}
+ul,li{list-style-type:none;}
+table,tr,td{word-break:break-all;}
+table{border-collapse:collapse; border-spacing:0;}
+th, td{vertical-align:middle;}
+img{border:0px;display: block;}
+input{outline:none; font-family: tahoma,arial,Hiragino Sans GB,Microsoft YaHei,"\u5b8b\u4f53",sans-serif; padding:0px; border:0px; margin:0px;}
+a{color:#666; text-decoration:none; outline:none; cursor:pointer;}
+a:hover{color:#c81623;}
+em{font-style:normal;}
+i{font-style:normal;}
+.fl{float:left;}
+.fr{float:right;}
+.mt_05{margin-top:0.05rem;}
+.mt_01{margin-top:0.01rem;}
+.mt_10{margin-top:0.1rem;}
+.mt_14{margin-top:0.14rem;}
+.mt_15{margin-top:0.15rem;}
+.mt_20{margin-top:0.2rem;}
+.mt_25{margin-top:0.25rem;}
+.mt_23{margin-top:0.23rem;}
+.mt_30{margin-top:0.3rem;}
+.mt_35{margin-top:0.35rem ;}
+.mt_50{margin-top:0.5rem;}
+.mt_60{margin-top:0.6rem;}
+.mt_90{margin-top:0.9rem}
+.mr_5{margin-right:0.05rem; _display:inline;}
+.mr_10{margin-right:0.1rem; _display:inline;}
+.mr_15{margin-right:0.15rem; _display:inline;}
+.mr_20{margin-right:0.2rem; _display:inline;}
+.ml_01{margin-left:0.01rem; _display:inline;}
+.ml_5{margin-left:0.05rem; _display:inline;}
+.ml_10{margin-left:0.1rem; _display:inline;}
+.ml_15{margin-left:0.15rem; _display:inline;}
+.ml_20{margin-left:0.2rem; _display:inline;}
+.ml_25{margin-left:0.25rem; _display:inline;}
+.ml_30{margin-left:0.3rem; _display:inline;}
+.ml_40{margin-left:0.4rem; _display:inline;}
+.ml_50{margin-left:0.5rem; _display:inline;}
+.ml_100{margin-left:1rem; _display:inline;}
+.ml_150{margin-left:1.5rem; _display:inline;}
+.mb_40{margin-bottom: 0.4rem;}
+.mb_30{margin-bottom: 0.3rem;}
+.mb_100{margin-bottom: 1rem;}
+.mb_110{margin-bottom: 1.1rem;}
+.mb_90{margin-bottom: 0.9rem;}
+.pt_10{padding-top:0.1rem;}
+.pb_10{padding-bottom:0.1rem;}
+.pb_20{padding-bottom:0.2rem;}
+.pl_10{padding-left:0.1rem;}
+.pr_10{padding-right:0.1rem;}
+.w_100bfb{width:100%; margin:0 auto;}
+.w_100bfb01{width:100%; float:left;}
+.dy_dd{overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.jzxx{text-align:center;}
+.del_x{text-decoration:line-through;}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0;}
+.clearfloat{zoom:1;}
+.w_520{width: 5.2rem; margin: 0 auto;}
+.w_535{width: 5.35rem; margin: 0 auto;}
+.w_575{width: 5.75rem; margin: 0 auto;}
+.w_585{width: 5.85rem; margin: 0 auto;}
+.hide{overflow: hidden;}
+.fon-w{font-weight:bold;}
+.box-s{box-sizing: border-box;}
+.pointer{ cursor: pointer;}
+.write-c{ color: #fff;}
+.shadow {
+    -webkit-box-shadow:2px 2px 5px #292929;
+    -moz-box-shadow:2px 2px 5px #292929;
+    box-shadow:2px 2px 5px #292929;
+}
+
+html{font-size: 100px;}
+/*公共样式结束*/
+/*头部开始*/
+.header-public{
+    text-align: center;
+    font-size: 0.35rem;
+    position: fixed;
+    background: #ffffff;
+    z-index: 1000;
+    top:0;
+    left:0;
+    height:0.88rem;
+    line-height: 0.88rem;
+    border-bottom: 0.01rem solid #cccccc;
+}
+.header-public   a{
+    background: url("../images/message/jiantou.png")no-repeat 0 0;
+    height:0.4rem;
+    display: block;
+    width: 0.35rem;
+    position: absolute;
+    background-size:100% 100% ;
+    top:0.25rem;
+    left:0.42rem;
+}
+.header-public .a1{
+    background: none;
+    font-size: 0.3rem;
+    position: absolute;
+    left:5rem;
+    top:0;
+    width:1rem;
+    height:100%;
+    line-height: 0.88rem;
+    display: block;
+}
+/*底部开始*/
+.foot-public{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    height: 1rem;
+    border-top: 2px solid #e10d86;
+    box-sizing: border-box;
+    background: #fff;
+}
+.foot-public a{
+    width: calc(20%);
+    text-align: center;
+    font-size: 0.22rem;
+    float: left;
+}
+.foot-public a .pict{
+    height: 0.55rem;
+    display: inline-block;
+}
+.foot-public a img {
+    display: inline-block;
+    margin-top: 0.2rem;
+    width: 0.44rem;
+    height:0.44rem;
+}
+.foot-public a .active{
+    color: #e10d86;
+}
+

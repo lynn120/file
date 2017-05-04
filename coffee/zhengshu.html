@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scale=1.0,inital-sca;able=1.0"><!--可视区宽度等于设备的宽度，禁止缩放，缩放比例1:1-->
+    <meta name="App-config" content="fullscreen=yes,useHistoryState,transition=yes"><!--保留系统的一些配置，（历史记录，动画效果，全屏）-->
+    <meta name="Apple-mobile-web-app-capable" content="yes"><!--苹果专有的信息-->
+    <meta name="Apple-mobile-web-app-status-bar-style" content="black">
+    <title>结果证书</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/zhengshu.css">
+</head>
+<div class="box">
+    <div class="header">
+        <li><img src="image/return.png"></li>
+        <li class="study">结课证书</li>
+    </div>
+<body>
+
+<div class="picture">
+   <p><img src="image/zhengshu.png" ></p>
+   <p class="zs"><img src="image/zhengshu2.png"></p>
+</div>
+    <div class="footer">
+        <ul class="picnic">
+            <img src="image/btn1-1.png">
+            <span>首页</span>
+        </ul>
+        <ul class="picnic1">
+            <img src="image/btn2-2.png">
+            <a href=""><span>证书</span></a>
+        </ul>
+        <ul class="picnic3">
+            <img src="image/btn3.png">
+            <span>小纸条</span>
+        </ul>
+        <ul class="picnic2">
+            <img src="image/btn4.png">
+            <span>论坛</span>
+        </ul>
+        <ul class="picnic">
+            <img src="image/btn5.png">
+            <span>我的</span>
+        </ul>
+    </div>
+
+</div>
+</body>
+<script>
+    (function (win,doc) {
+        function change() {
+            document.documentElement.style.fontSize=100*document.documentElement.clientWidth/640+'px';
+        }
+        doc.addEventListener('DOMContentLoaded',change,false);
+        win.addEventListener('resize',change,false);
+    })(window,document);
+
+</script>
+</html>

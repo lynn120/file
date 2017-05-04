@@ -1,0 +1,696 @@
+.box {
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: #fff;
+}
+.box .header {
+  width: 100%;
+  height: 0.88rem;
+  text-align: center;
+}
+.box .header img {
+  width: 1.35rem;
+  height: 0.73rem;
+  margin-top: 0.1rem;
+}
+.box .search {
+  width: 100%;
+  height: 0.83rem;
+  background: #f2f2f2;
+  border-top: 1px solid #cdcccc;
+}
+.box .search .classes {
+  width: 6rem;
+  height: 0.63rem;
+  border-radius: 0.5rem;
+  border: 1px solid #cdcccc;
+  margin: 0 auto;
+  background: #fff;
+  margin-top: 0.1rem;
+  font-size: 0.28rem;
+}
+.box .search .classes li {
+  float: left;
+  margin-left: 0.3rem;
+  margin-top: 0.1rem;
+}
+.box .search .classes li span img {
+  width: 0.22rem;
+  height: 0.13rem;
+}
+.box .search .classes .txt {
+  margin-top: 0.15rem;
+}
+.box .search .classes .txt input {
+  width: 4.2rem;
+  height: 0.35rem;
+  display: block;
+  border-left: 1px solid #cdcccc;
+  padding-left: 0.1rem;
+  background: url(../image/sou.png) no-repeat right top;
+  background-size: 0.33rem 0.32rem;
+}
+.box .banner {
+  width: 100%;
+}
+.box .banner img {
+  width: 100%;
+  height: 2.22rem;
+  display: block;
+}
+.box .list {
+  height: 0.68rem;
+  background: #f2f2f2;
+  border-bottom: 1px solid #cccccc;
+}
+.box .list .list-left {
+  float: left;
+  width: 1.98rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-left: 0.2rem;
+  border-bottom: 0.02rem solid #df007f;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list .list-left li {
+  float: left;
+}
+.box .list .list-right {
+  float: right;
+  width: 1.98rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-right: 0.2rem;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list .list-right li {
+  float: right;
+}
+.box .course {
+  width: 100%;
+  height: 1.9rem;
+  float: left;
+  background: #fff;
+}
+.box .course .course-l {
+  float: left;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+}
+.box .course .course-l img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.box .course .course-r {
+  float: left;
+  width: 4.33rem;
+  font-size: 0.26rem;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  color: #000;
+}
+.box .course .course-r .s {
+  display: inline-block;
+}
+.box .course .course-r .s img {
+  width: 0.3rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  padding-left: 0.2rem;
+  position: relative;
+  top: 0.06rem;
+  right: -0.6rem;
+}
+.box .course .course-r .person {
+  color: #999999;
+  line-height: 0.4rem;
+}
+.box .course .course-r .money {
+  color: #df007f;
+  font-weight: bold;
+  line-height: 0.4rem;
+}
+.box .course .course-r .date {
+  color: #999999;
+  line-height: 0.4rem;
+}
+.box .course .course-r .date a {
+  display: inline-block;
+  width: 1.78rem;
+  height: 0.43rem;
+  background: #df007f;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 0.26rem;
+  position: relative;
+  right: -0.2rem;
+  bottom: 0.01rem;
+}
+.box .course2 {
+  width: 100%;
+  height: 1.9rem;
+  float: left;
+  background: #f5f5f5;
+}
+.box .course2 .course-l {
+  float: left;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+}
+.box .course2 .course-l img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.box .course2 .course-r {
+  float: left;
+  width: 4.33rem;
+  font-size: 0.26rem;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  color: #000;
+}
+.box .course2 .course-r .s {
+  display: inline-block;
+}
+.box .course2 .course-r .s img {
+  width: 0.3rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  padding-left: 0.2rem;
+  position: relative;
+  top: 0.06rem;
+  right: -0.6rem;
+}
+.box .course2 .course-r .person {
+  color: #999999;
+  line-height: 0.4rem;
+}
+.box .course2 .course-r .money {
+  color: #df007f;
+  font-weight: bold;
+  line-height: 0.4rem;
+}
+.box .course2 .course-r .date {
+  color: #999999;
+  line-height: 0.4rem;
+}
+.box .course2 .course-r .date a {
+  display: inline-block;
+  width: 1.78rem;
+  height: 0.43rem;
+  background: #fff;
+  color: #df007f;
+  border: 1px solid #df007f;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 0.26rem;
+  position: relative;
+  right: -0.2rem;
+  bottom: 0.01rem;
+}
+.box .course3 {
+  width: 100%;
+  height: 1.9rem;
+  float: left;
+  background: #fff;
+}
+.box .course3 .course-l {
+  float: left;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+}
+.box .course3 .course-l img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.box .course3 .course-r {
+  float: left;
+  width: 4.3rem;
+  font-size: 0.26rem;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  color: #000;
+}
+.box .course3 .course-r .s {
+  display: inline-block;
+}
+.box .course3 .course-r .s img {
+  width: 0.3rem;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  position: relative;
+  top: 0.06rem;
+  right: -0.5rem;
+}
+.box .course3 .course-r .person {
+  color: #999999;
+  line-height: 0.4rem;
+}
+.box .course3 .course-r .money {
+  color: #df007f;
+  font-weight: bold;
+  line-height: 0.4rem;
+}
+.box .course3 .course-r .date {
+  color: #999999;
+  line-height: 0.4rem;
+}
+.box .course3 .course-r .date a {
+  display: inline-block;
+  width: 1.78rem;
+  height: 0.43rem;
+  background: #fff;
+  color: #df007f;
+  border: 1px solid #df007f;
+  text-align: center;
+  border-radius: 0.5rem;
+  font-size: 0.26rem;
+  position: relative;
+  right: -0.2rem;
+  bottom: 0.01rem;
+}
+.box .list2 {
+  float: left;
+  width: 100%;
+  height: 0.68rem;
+  background: #f2f2f2;
+  border-bottom: 1px solid #cccccc;
+}
+.box .list2 .list-left {
+  float: left;
+  width: 1.98rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-left: 0.2rem;
+  border-bottom: 0.02rem solid #df007f;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list2 .list-left li {
+  float: left;
+}
+.box .list2 .list-right {
+  float: right;
+  width: 1.98rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-left: 0.2rem;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list2 .list-right li {
+  float: left;
+}
+.box .list2 .list-right li:first-child {
+  padding-left: 0.4rem ;
+}
+.box .list2 .list-right li:last-child {
+  padding-left: 0.4rem ;
+}
+.box .list2 .list-right .today {
+  color: #df007f;
+}
+.box .schedule {
+  width: 100%;
+  float: left;
+}
+.box .schedule img {
+  width: 100%;
+  height: 3.45rem;
+}
+.box .taobao {
+  width: 100%;
+  float: left;
+}
+.box .taobao img {
+  float: left;
+  width: 100%;
+  height: 2.1rem;
+}
+.box .list3 {
+  width: 100%;
+  float: left;
+  height: 0.68rem;
+  background: #f2f2f2;
+  border-bottom: 1px solid #cccccc;
+}
+.box .list3 .list-left {
+  float: left;
+  width: 4.3rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-left: 0.2rem;
+  border-bottom: 0.02rem solid #df007f;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list3 .list-left li {
+  float: left;
+}
+.box .list3 .list-right {
+  float: right;
+  width: 1.2rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-right: 0.2rem;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list3 .list-right li {
+  float: right;
+}
+.box .luntan {
+  width: 100%;
+  float: left;
+}
+.box .luntan .show {
+  width: 4.2rem;
+  height: 2.94rem;
+  float: left;
+  font-size: 0.24rem;
+}
+.box .luntan .show p {
+  line-height: 0.44rem;
+  padding-left: 0.2rem;
+  color: #999999;
+}
+.box .luntan .show p:first-child {
+  padding-top: 0.1rem;
+}
+.box .luntan .show p:first-child a {
+  color: #df007f;
+}
+.box .luntan .show-r {
+  width: 1.6rem;
+  height: 2.94rem;
+  float: right;
+  font-size: 0.24rem;
+}
+.box .luntan .show-r p {
+  line-height: 0.44rem;
+  padding-left: 0.2rem;
+  color: #999999;
+}
+.box .luntan .show-r p:first-child {
+  padding-top: 0.1rem;
+}
+.box .luntan .show-r p:first-child a {
+  color: #df007f;
+}
+.box .list4 {
+  width: 100%;
+  float: left;
+  height: 0.68rem;
+  background: #f2f2f2;
+  border-bottom: 1px solid #cccccc;
+}
+.box .list4 .list-left {
+  float: left;
+  width: 1.98rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-left: 0.2rem;
+  border-bottom: 0.02rem solid #df007f;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list4 .list-left li {
+  float: left;
+}
+.box .list4 .list-right {
+  float: right;
+  width: 1.98rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-right: 0.2rem;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list4 .list-right li {
+  float: right;
+}
+.box .luntan2 {
+  width: 100%;
+  float: left;
+}
+.box .luntan2 .show2 {
+  width: 4.2rem;
+  height: 2.94rem;
+  float: left;
+  font-size: 0.24rem;
+}
+.box .luntan2 .show2 p {
+  line-height: 0.44rem;
+  padding-left: 0.2rem;
+  color: #999999;
+}
+.box .luntan2 .show2 p:first-child {
+  padding-top: 0.1rem;
+}
+.box .luntan2 .show2 p:first-child a {
+  color: #df007f;
+}
+.box .luntan2 .show-r {
+  width: 1.6rem;
+  height: 2.94rem;
+  float: right;
+  font-size: 0.24rem;
+}
+.box .luntan2 .show-r p {
+  line-height: 0.44rem;
+  padding-left: 0.2rem;
+  color: #999999;
+}
+.box .luntan2 .show-r p:first-child {
+  padding-top: 0.1rem;
+}
+.box .luntan2 .show-r p:first-child a {
+  color: #df007f;
+}
+.box .weixin {
+  float: left;
+  width: 100%;
+}
+.box .weixin img {
+  width: 100%;
+  height: 2.1rem;
+  float: left;
+}
+.box .list5 {
+  width: 100%;
+  height: 0.68rem;
+  float: left;
+  background: #f2f2f2;
+  border-bottom: 1px solid #cccccc;
+}
+.box .list5 .list-left {
+  float: left;
+  width: 1.3rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-left: 0.2rem;
+  border-bottom: 0.02rem solid #df007f;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list5 .list-left li {
+  float: left;
+}
+.box .list5 .list-right {
+  float: right;
+  width: 1.98rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-right: 0.2rem;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list5 .list-right li {
+  float: right;
+}
+.box .fengcai {
+  width: 100%;
+  float: left;
+}
+.box .fengcai li {
+  width: 1.50rem;
+  float: left;
+  padding-top: 0.35rem;
+  margin-bottom: 0.2rem;
+}
+.box .fengcai li img {
+  width: 1.48rem;
+  height: 1.7rem;
+  margin-left: 0.03rem;
+}
+.box .fengcai li span {
+  display: block;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.box .fengcai li:first-child {
+  padding-left: 0.2rem;
+}
+.box .list6 {
+  width: 100%;
+  height: 0.68rem;
+  float: left;
+  background: #f2f2f2;
+  border-bottom: 1px solid #cccccc;
+}
+.box .list6 .list-left {
+  float: left;
+  width: 1.3rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-left: 0.2rem;
+  border-bottom: 0.02rem solid #df007f;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list6 .list-left li {
+  float: left;
+}
+.box .list6 .list-right {
+  float: right;
+  width: 1.98rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-right: 0.2rem;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list6 .list-right li {
+  float: right;
+}
+.box .star {
+  width: 100%;
+  float: left;
+}
+.box .star li {
+  width: 1.50rem;
+  float: left;
+  padding-top: 0.35rem;
+  margin-bottom: 0.2rem;
+}
+.box .star li img {
+  width: 1.48rem;
+  height: 1.7rem;
+  margin-left: 0.03rem;
+}
+.box .star li span {
+  display: block;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.box .star li:first-child {
+  padding-left: 0.2rem;
+}
+.box .list7 {
+  width: 100%;
+  height: 0.68rem;
+  float: left;
+  background: #f2f2f2;
+  border-bottom: 1px solid #cccccc;
+}
+.box .list7 .list-left {
+  float: left;
+  width: 1.5rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-left: 0.2rem;
+  border-bottom: 0.02rem solid #df007f;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list7 .list-left li {
+  float: left;
+}
+.box .list7 .list-right {
+  float: right;
+  width: 1.98rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  padding-right: 0.2rem;
+  font-size: 0.26rem;
+  color: #000;
+}
+.box .list7 .list-right li {
+  float: right;
+}
+.box .star2 {
+  width: 100%;
+  float: left;
+  margin-bottom: 1.1rem;
+}
+.box .star2 li {
+  float: left;
+  width: 1.5rem;
+  padding-top: 0.35rem;
+  margin-bottom: 0.4rem;
+}
+.box .star2 li img {
+  width: 1.48rem;
+  height: 1.7rem;
+  margin-left: 0.03rem;
+}
+.box .star2 li span {
+  display: block;
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.box .star2 li:first-child {
+  padding-left: 0.2rem;
+}
+.box .footer {
+  width: 6.4rem;
+  height: 1.1rem;
+  background: #fff;
+  position: fixed;
+  border-top: 0.02rem solid #df007f;
+  bottom: 0;
+}
+.box .footer .picnic {
+  width: 1.2rem;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  float: left;
+  text-align: center;
+}
+.box .footer .picnic img {
+  width: 0.47rem;
+  height: 0.49rem;
+}
+.box .footer .picnic span {
+  display: block;
+  font-size: 0.2rem;
+  color: #9b9b9b;
+}
+.box .footer .picnic2 {
+  width: 1.2rem;
+  height: 0.9rem;
+  margin-top: 0.25rem;
+  margin-left: 0.1rem;
+  float: left;
+  text-align: center;
+}
+.box .footer .picnic2 img {
+  width: 0.53rem;
+  height: 0.44rem;
+}
+.box .footer .picnic2 span {
+  display: block;
+  font-size: 0.2rem;
+  color: #9b9b9b;
+}
+.box .footer .picnic:first-child {
+  margin-left: 0;
+}
+.box .footer .picnic:first-child span {
+  color: #e00d85;
+}

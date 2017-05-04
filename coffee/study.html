@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scale=1.0,inital-sca;able=1.0"><!--可视区宽度等于设备的宽度，禁止缩放，缩放比例1:1-->
+    <meta name="App-config" content="fullscreen=yes,useHistoryState,transition=yes"><!--保留系统的一些配置，（历史记录，动画效果，全屏）-->
+    <meta name="Apple-mobile-web-app-capable" content="yes"><!--苹果专有的信息-->
+    <meta name="Apple-mobile-web-app-status-bar-style" content="black">
+    <title>咖啡学习</title>
+    <link rel="stylesheet" href="css/study.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="box">
+    <div class="header">
+        <li><img src="image/return.png"></li>
+        <li class="study">咖啡学习</li>
+</div>
+    <div class="search">
+        <ul class="classes">
+            <li class="txt">
+                <input type="text" value="" placeholder="请输入搜索内容"></li>
+        </ul>
+    </div>
+    <div class="luntan">
+        <ul class="show">
+            <p><a href="javascript:;">实验室|今天我们做一杯罪恶咖啡</a></p>
+            <p><a href="javascript:;">世界十大咖啡产地介绍</a></p>
+            <p><a href="javascript:;">常喝咖啡同时注意经常补钙</a></p>
+            <p><a href="javascript:;">云南咖啡为什么贱卖</a></p>
+            <p><a href="javascript:;">咖啡标志全国性指南</a></p>
+            <p><a href="javascript:;">你知道吗|咖啡还可以这样喝</a></p>
+        </ul>
+        <ul class="show-r">
+            <p><a href="javascript:;">2016-04-01</a></p>
+            <p><a href="javascript:;">2016-04-03</a></p>
+            <p><a href="javascript:;"> 2016-04-05</a></p>
+            <p><a href="javascript:;">2016-04-07</a></p>
+            <p><a href="javascript:;">2016-04-10</a></p>
+            <p><a href="javascript:;"> 2016-04-12</a></p>
+        </ul>
+    </div>
+    <div class="footer">
+    <ul class="picnic">
+        <a href="index.html">
+            <img src="image/btn1.png">
+            <span>首页</span>
+        </a>
+    </ul>
+    <ul class="picnic">
+        <a href="zhengshu.html">
+            <img src="image/btn2.png">
+           <span>证书</span>
+        </a>
+    </ul>
+    <ul class="picnic">
+        <img src="image/btn3.png">
+        <span>小纸条</span>
+    </ul>
+    <ul class="picnic2">
+        <img src="image/btn4.png">
+        <span>论坛</span>
+    </ul>
+    <ul class="picnic">
+        <img src="image/btn5.png">
+        <span>我的</span>
+    </ul>
+</div>
+</div>
+</body>
+<script>
+    (function (win,doc) {
+        function change() {
+            document.documentElement.style.fontSize=100*document.documentElement.clientWidth/640+'px';
+        }
+        doc.addEventListener('DOMContentLoaded',change,false);
+        win.addEventListener('resize',change,false);
+    })(window,document);
+
+</script>
+</html>

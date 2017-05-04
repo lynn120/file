@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scale=1.0,inital-sca;able=1.0"><!--可视区宽度等于设备的宽度，禁止缩放，缩放比例1:1-->
+    <meta name="App-config" content="fullscreen=yes,useHistoryState,transition=yes"><!--保留系统的一些配置，（历史记录，动画效果，全屏）-->
+    <meta name="Apple-mobile-web-app-capable" content="yes"><!--苹果专有的信息-->
+    <meta name="Apple-mobile-web-app-status-bar-style" content="black">
+    <title>订单确认</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dingdan.css">
+</head>
+<body>
+<div class="box">
+    <div class="header">
+        <li><img src="image/return.png"></li>
+        <li class="study">订单确认</li>
+    </div>
+    <div class="clearfloat classname">
+        <p><span>课程名称：</span>手冲+SCAE中级金杯萃取课程</p>
+        <p><span>课程时间：</span>2016-04-05</p>
+        <p><span>预定金额：</span>2000.00</p>
+        <p><span>课程金额：</span>12000.00</p>
+    </div>
+    <div class="coffe">
+        <img src="image/dingdan.png">
+    </div>
+    <div class="clearfloat footer">
+        <input type="button" value="取消付款" >
+        <input type="button" value="立即付款">
+    </div>
+</div>
+</body>
+<script>
+    (function (win,doc) {
+        function change() {
+            document.documentElement.style.fontSize=100*document.documentElement.clientWidth/640+'px';
+        }
+        doc.addEventListener('DOMContentLoaded',change,false);
+        win.addEventListener('resize',change,false);
+    })(window,document);
+
+</script>
+</html>

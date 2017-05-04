@@ -1,0 +1,145 @@
+.content {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0.15rem;
+  line-height: 0.4rem;
+  color: #b6b6b6;
+  font-size: 0.24rem;
+}
+.picture {
+  width: 100%;
+  float: left;
+}
+.picture img {
+  width: 6.4rem;
+  height: 3.99rem;
+  float: left;
+}
+.steven {
+  width: 100%;
+  float: left;
+  border-top: 1px solid #ccc ;
+  box-sizing: border-box;
+  padding: 0.2rem;
+}
+.steven div {
+  float: left;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  color: #333;
+}
+.steven .circle {
+  width: 0.82rem;
+  height: 0.82rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 0.03rem;
+  margin-right: 0.2rem;
+}
+.steven .circle img {
+  width: 0.82rem;
+  height: 0.82rem;
+  float: left;
+}
+.title-home {
+  width: 100%;
+  float: left;
+  background: #f2f2f2;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #ccc;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  position: relative;
+  font-size: 0.28rem;
+  color: #000;
+}
+.title-home .line {
+  width: 1.98rem;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-bottom: 2px solid #df007f;
+}
+.title-home .line2 {
+  width: 4.5rem;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-bottom: 2px solid #df007f;
+}
+.title-home .month {
+  font-size: 0.24rem;
+}
+.title-home .active {
+  color: #df007f;
+}
+.comment {
+  width: 100%;
+  float: left;
+  border-top: 1px solid #ccc ;
+  box-sizing: border-box;
+  padding: 0.2rem;
+}
+.comment div {
+  float: left;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  color: #333;
+}
+.comment .nr {
+  width: 4.8rem;
+}
+.comment .nr .time {
+  color: #b6b6b6;
+  font-size: 0.22rem;
+}
+.comment .nr .time .reply {
+  height: 0.4rem;
+  width: 1.7rem;
+  border: 1px solid #df007f;
+  border-radius: 0.2rem;
+  float: right;
+  font-size: 0.24rem;
+  text-align: center;
+  line-height: 0.4rem;
+  color: #df007f;
+}
+.comment .circle {
+  width: 0.82rem;
+  height: 0.82rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-top: 0.03rem;
+  margin-right: 0.2rem;
+}
+.comment .circle img {
+  width: 0.82rem;
+  height: 0.82rem;
+  float: left;
+}
+.fixed {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 1rem;
+  background: #fff;
+  border-top: 0.02rem solid #df007f;
+}
+.fixed input:nth-child(1) {
+  width: 4.4rem;
+  height: 0.6rem;
+  border: 1px solid #ccc;
+  font-size: 0.32rem;
+  padding-left: 0.1rem;
+  margin-left: 0.2rem;
+  margin-top: 0.2rem;
+}
+.fixed input:nth-child(2) {
+  width: 1.4rem;
+  height: 0.6rem;
+  background: #df007f;
+  color: #fff;
+  font-size: 0.32rem;
+}

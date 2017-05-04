@@ -1,0 +1,129 @@
+.box {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.box .header {
+  width: 100%;
+  height: 0.86rem;
+  float: left;
+  background: #fff;
+  border-bottom: 1px solid #cccccc;
+  position: fixed;
+  top: 0;
+}
+.box .header li {
+  float: left;
+}
+.box .header li img {
+  width: 0.27rem;
+  height: 0.42rem;
+}
+.box .header li:first-child {
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+}
+.box .header .study {
+  float: left;
+  font-size: 0.36rem;
+  padding-top: 0.2rem;
+  margin-left: 1.8rem;
+  color: #000;
+}
+.box .picture {
+  width: 100%;
+  float: left;
+  margin-bottom: 1.3rem;
+  margin-top: 0.8rem;
+}
+.box .picture p {
+  text-align: center;
+  margin-top: 0.2rem;
+}
+.box .picture p img {
+  width: 6.01rem;
+  height: 4.32rem;
+}
+.box .picture .zs img {
+  width: 6.01rem;
+  height: 3.71rem;
+}
+.box .footer {
+  width: 6.4rem;
+  height: 1.1rem;
+  background: #fff;
+  position: fixed;
+  border-top: 0.02rem solid #df007f;
+  bottom: 0;
+}
+.box .footer .picnic {
+  width: 1.2rem;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  float: left;
+  text-align: center;
+}
+.box .footer .picnic img {
+  width: 0.47rem;
+  height: 0.49rem;
+}
+.box .footer .picnic span {
+  display: block;
+  font-size: 0.2rem;
+  color: #a9a9a9;
+}
+.box .footer .picnic1 {
+  width: 1.2rem;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  float: left;
+  text-align: center;
+}
+.box .footer .picnic1 img {
+  width: 0.47rem;
+  height: 0.49rem;
+}
+.box .footer .picnic1 span {
+  display: block;
+  font-size: 0.2rem;
+  color: #df007f;
+}
+.box .footer .picnic3 {
+  width: 1.2rem;
+  height: 0.9rem;
+  margin-top: 0.2rem;
+  margin-left: 0.1rem;
+  float: left;
+  text-align: center;
+}
+.box .footer .picnic3 img {
+  width: 0.47rem;
+  height: 0.49rem;
+}
+.box .footer .picnic3 span {
+  display: block;
+  font-size: 0.2rem;
+  color: #a9a9a9;
+}
+.box .footer .picnic2 {
+  width: 1.2rem;
+  height: 0.9rem;
+  margin-top: 0.25rem;
+  margin-left: 0.1rem;
+  float: left;
+  text-align: center;
+}
+.box .footer .picnic2 img {
+  width: 0.53rem;
+  height: 0.44rem;
+}
+.box .footer .picnic2 span {
+  display: block;
+  font-size: 0.2rem;
+  color: #a9a9a9;
+}
+.box .footer .picnic:first-child {
+  margin-left: 0;
+}

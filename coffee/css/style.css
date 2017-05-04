@@ -1,0 +1,72 @@
+html{width:100%; font-size:100px; outline:0; -webkit-text-size-adjust:none;}
+body{font-family:"微软雅黑", "黑体"; color:#666; background:#fff; padding:0px; margin:0px; -webkit-user-select:none; font-size:0.18rem;}
+body, input, textarea, select, button, table{padding:0px; margin:0px; font-size:0.18rem;}
+input,select,button{-webkit-appearance:none; -webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-tap-highlight-color:transparent; border-radius:0px; border:0;}
+a,button,input{outline:none; text-decoration:none;}
+a{text-decoration:none; color:#666; padding:0px; margin:0px; -webkit-tap-highlight-color:transparent;}
+.fleft{float:left;}
+.fright{float:right;}
+.hide{display:none;}
+.m10{margin:0.1rem;}
+.mt10{margin-top:0.1rem;}
+.mt_15{margin-top:0.15rem;}
+.mt_20{margin-top:0.2rem;}
+.mr_10{margin-right:0.1rem;}
+.pt_10{padding-top:0.1rem;}
+.pb_10{padding-bottom:0.1rem;}
+table{border-collapse:collapse; border-spacing:0;}
+fieldset,
+img,
+iframe{border:0;}
+:focus{outline:0;}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var{font-weight:normal;font-style:normal;}
+ol,
+ul{list-style:none; padding:0px; margin:0px;}
+li{list-style:none; padding:0px; margin:0px;}
+dl,dd,dt{padding:0px; margin:0px;}
+p{padding:0px; margin:0px;}
+caption,
+th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after{content:''}
+abbr,
+acronym{border:0;font-variant:normal;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+input,
+textarea,
+select{*font-size:100%;}
+legend{color:#000;}
+.clearfix{zoom:1;}
+.clearfix:after{display:block;clear:both;content:'';}
+textarea{resize:none;}
+i{font-style:normal;}
+em{font-style:normal;}
+.pl_10{padding-left:0.1rem;}
+.pr_10{padding-right:0.1rem;}
+.p_10div{padding:0.1rem;}
+.p_l_r10div{padding-left:0.1rem; padding-right:0.1rem;}
+.dy_dd{overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.w_bfb{width:100%; margin:0 auto;}
+.w_bfb01{width:100%; float:left;}
+dl,dt{padding:0px; margin:0px;}
+.del_x{text-decoration:line-through;}
+.ad_01{padding-top:0.1rem; width:100%; float:left; background:#fff;}
+.ad_01 img{width:100%; float:left;}
+.ad_02{width:100%; float:left;}
+.ad_02 img{width:100%; float:left;}
+.relative_dw{position:relative;}
+.jzxs{text-align:center;}
+.box_sizing{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}
+/*公共样式结束*/

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scale=1.0,inital-sca;able=1.0"><!--可视区宽度等于设备的宽度，禁止缩放，缩放比例1:1-->
+    <meta name="App-config" content="fullscreen=yes,useHistoryState,transition=yes"><!--保留系统的一些配置，（历史记录，动画效果，全屏）-->
+    <meta name="Apple-mobile-web-app-capable" content="yes"><!--苹果专有的信息-->
+    <meta name="Apple-mobile-web-app-status-bar-style" content="black">
+    <title>课程模版</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mould.css">
+</head>
+<body>
+<div class="box">
+    <div class="header">
+        <li><img src="image/return.png"></li>
+        <li class="study">课程模版</li>
+    </div>
+    <div class="list">
+        <ul class="list-left">
+            <li>课程内容</li>
+        </ul>
+    </div>
+    <div class="coffee">
+        <img src="image/coffee.png">
+    </div>
+    <div class="content">
+    <li>一：C301 咖啡烘焙的基础理论 1）从精品咖啡发展趋势
+        谈咖啡烘焙的兴起 2）咖啡烘焙的基本概念 3）烘焙师的
+        思考：创造什么风味？怎样创造风味？ 4）如何检验烘焙
+        样品的风味 5）传热学基础知识入门 6）解析热量传递的
+        三种方式（对流 Convection、传导 Contact、辐射
+        Radiation） 7）烘焙机基本分类、模型框架以及优劣分
+        析 8）烘焙中影响热传递的基本因素 9）半热风式滚筒烘
+        焙机的基本结构、部件功能、工作流程及关键要素 10）
+        关于咖啡烘焙的准备工作 11）咖啡烘焙的一般流程及注
+        意事项（含基本清洁维护） 12）解读咖啡烘焙的各个阶
+        段：下豆入锅、探底回温、脱水蒸焙、正式烘焙、一爆发
+        展、下豆出锅、快速冷却。 13）八大基本烘焙程度描述</li>
+    </div>
+    <div class="family">
+        <img src="image/family.png">
+    </div>
+    <div class="clearfloat footer">
+        <input type="button" value="拨打电话" >
+        <input type="button" value="立即预定">
+    </div>
+</div>
+</body>
+<script>
+    (function (win,doc) {
+        function change() {
+            document.documentElement.style.fontSize=100*document.documentElement.clientWidth/640+'px';
+        }
+        doc.addEventListener('DOMContentLoaded',change,false);
+        win.addEventListener('resize',change,false);
+    })(window,document);
+
+</script>
+</html>

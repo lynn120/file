@@ -1,0 +1,114 @@
+.box {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.box .header {
+  width: 100%;
+  height: 0.86rem;
+  float: left;
+  border-bottom: 1px solid #cccccc;
+}
+.box .header li {
+  float: left;
+}
+.box .header li img {
+  width: 0.27rem;
+  height: 0.42rem;
+}
+.box .header li:first-child {
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+}
+.box .header .study {
+  float: left;
+  font-size: 0.36rem;
+  padding-top: 0.2rem;
+  margin-left: 2.3rem;
+  color: #000;
+}
+.box .dlu {
+  width: 100%;
+  height: 3.8rem;
+  float: left;
+}
+.box .dlu p {
+  padding-left: 0.2rem;
+  padding-top: 0.2rem;
+}
+.box .dlu p input {
+  width: 5.8rem;
+  height: 0.8rem;
+  border: 1px solid #cccccc;
+  padding-left: 0.2rem;
+  font-size: 0.3rem;
+  color: #999999;
+}
+.box .login {
+  width: 100%;
+}
+.box .login input {
+  width: 6rem;
+  height: 0.8rem;
+  background: #df007f;
+  border-radius: 0.1rem;
+  color: #fff;
+  font-size: 0.34rem;
+  text-align: center;
+  margin-left: 0.2rem;
+}
+.box .login .zuce {
+  width: 6rem;
+  height: 0.5rem;
+  margin: 0 auto;
+}
+.box .login .zuce li {
+  margin-top: 0.2rem;
+}
+.box .login .zuce li a {
+  font-size: 0.22rem;
+}
+.box .login .zuce .free {
+  float: left;
+}
+.box .login .zuce .psw {
+  float: right;
+}
+.box .qita {
+  width: 100%;
+  height: 0.6rem;
+  border-bottom: 1px solid #cccccc;
+  position: relative;
+}
+.box .qita span {
+  background: #fff;
+  color: #000;
+  width: 1.9rem;
+  height: 0.6rem;
+  position: absolute;
+  left: 2.3rem;
+  top: 0.5rem;
+  text-align: center;
+  font-size: 0.22rem;
+}
+.box .footer {
+  width: 4.5rem;
+  height: 1.35rem;
+  margin: 0 auto;
+}
+.box .footer li {
+  float: left;
+  margin-top: 0.8rem;
+  text-align: center;
+  margin-left: 0.9rem;
+}
+.box .footer li img {
+  width: 0.84rem;
+  height: 0.84rem;
+}
+.box .footer li span {
+  display: block;
+}
+.box .footer li:first-child {
+  margin-left: 0;
+}

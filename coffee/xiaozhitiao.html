@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scale=1.0,inital-sca;able=1.0"><!--可视区宽度等于设备的宽度，禁止缩放，缩放比例1:1-->
+    <meta name="App-config" content="fullscreen=yes,useHistoryState,transition=yes"><!--保留系统的一些配置，（历史记录，动画效果，全屏）-->
+    <meta name="Apple-mobile-web-app-capable" content="yes"><!--苹果专有的信息-->
+    <meta name="Apple-mobile-web-app-status-bar-style" content="black">
+    <title>小纸条</title>
+    <link rel="stylesheet" href="css/xiaozhitiao.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="box">
+    <div class="header">
+        <li><img src="image/return.png"></li>
+        <li class="study">消息详情</li>
+    </div>
+    <div class="content">
+        <span>咖啡与咖啡馆</span>
+        <li>文含是逸香ESW葡萄酒课程的首席葡萄酒讲师，英国WSET葡萄酒学院授权讲师，同时拥有最为严格的美国ISG侍酒师学院授权讲师资格(全球仅50人)。文含同时拥有ESW和ISG的最高讲师资格。他是ESW的主创人员之一根据国际市场与中国行情持续对课程内容进行修订，旨在给每一个学员带来最具时代感的葡萄酒信息。他还领导了ISG课程中文版的研创，在原版国际课程的基础上结合了中国的葡萄酒行业背景与本土文化重新编译。情怀而非盲目的潮流消费。</li>
+        <li class="last"> 发布时间：2016-04-01 12:30:36</li>
+    </div>
+    <div class="footer">
+        <ul class="picnic">
+            <img src="image/btn1-1.png">
+            <span>首页</span>
+        </ul>
+        <ul class="picnic">
+            <img src="image/btn2.png">
+            <a href=""><span>证书</span></a>
+        </ul>
+        <ul class="picnic3">
+            <img src="image/btn3-3.png">
+            <span>小纸条</span>
+        </ul>
+        <ul class="picnic2">
+            <img src="image/btn4.png">
+            <span>论坛</span>
+        </ul>
+        <ul class="picnic">
+            <img src="image/btn5.png">
+            <span>我的</span>
+        </ul>
+    </div>
+</div>
+</body>
+<script>
+    (function (win,doc) {
+        function change() {
+            document.documentElement.style.fontSize=100*document.documentElement.clientWidth/640+'px';
+        }
+        doc.addEventListener('DOMContentLoaded',change,false);
+        win.addEventListener('resize',change,false);
+    })(window,document);
+
+</script>
+</html>
